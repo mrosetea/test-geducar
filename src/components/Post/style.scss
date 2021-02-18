@@ -1,0 +1,26 @@
+.Post {
+  background-color: #434753;
+  border-radius: 8px;
+  margin: 0 15px 15px 15px;
+  height: 200px;
+  &__Title {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+  }
+  &__Body {
+    font-size: 1.5em;
+    color: white;
+    padding: 10px;
+  }
+  &__ShowCommentsButton {
+    display: flex;
+    justify-content: center;
+    margin-top: 22px;
+  }
+}
+
+a {
+  color: white;
+}

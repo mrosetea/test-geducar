@@ -1,0 +1,15 @@
+.PostSection {
+  flex: 3;
+  height: 100%;
+  background-color: #696D76;
+  &__ExitButtonContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin: 10px;
+    cursor: pointer;
+  }
+  &__Container {
+    height: 92%;
+    overflow: auto;
+  }
+}

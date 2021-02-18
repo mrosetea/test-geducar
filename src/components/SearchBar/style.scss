@@ -1,0 +1,27 @@
+.SearchBar {
+  background-color: #696D76;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  border-radius: 15px;
+  margin: 15px;
+  &__Input {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    border: 0px solid;
+    font-size: 1.2em;
+    color: white;
+    margin: 0 0 0 15px;
+  }
+  &__Input::placeholder {
+    color: #F1F5F8;
+  }
+  &__Input:focus{
+    outline: none;
+  }
+  &__Icon {
+    margin-right: 18px;
+  }
+}
